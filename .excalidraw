@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "PfASlsSzp1xnUZ7dU5zHu",
+      "type": "text",
+      "x": 328,
+      "y": 139,
+      "width": 681.839599609375,
+      "height": 325,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 589085389,
+      "version": 467,
+      "versionNonce": 300278659,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1773945196815,
+      "link": null,
+      "locked": false,
+      "text": "* ANALIZADO D GASTOS CON ETADISTICAS\n\n* TOTAL, PROMEDIO, MAXIMO, MINIMO\n* TOTALES POR CATEGORIA\n* REPORTE ORMATEADO EN TABLA\n\nREQUSITOS FUNCIONALES\n* ESTRUCTURA DE GAST: {id, fecha, categoria, descripcion, monto}\n* validar= monto numero finito > = strings no vacios\n* caluclar estsdisticas: total/promedio/max/min\n* agrupar por categoria\nmostar el reporte en una tabla\n",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "* ANALIZADO D GASTOS CON ETADISTICAS\n\n* TOTAL, PROMEDIO, MAXIMO, MINIMO\n* TOTALES POR CATEGORIA\n* REPORTE ORMATEADO EN TABLA\n\nREQUSITOS FUNCIONALES\n* ESTRUCTURA DE GAST: {id, fecha, categoria, descripcion, monto}\n* validar= monto numero finito > = strings no vacios\n* caluclar estsdisticas: total/promedio/max/min\n* agrupar por categoria\nmostar el reporte en una tabla\n",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
