@@ -9,7 +9,7 @@ switch (color);
    console.log("Color de avance");  break;
 
  case "amarillo":
-   console.log("Color de precaución")  break;
+   console.log("Color de precaución");  break;
 
  default:
    console.log("Color no reconocido");
