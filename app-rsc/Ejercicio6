@@ -5,6 +5,6 @@ const estudiantes = [
 { nombre: "Carlos", nota: 2.5 }
 ];
 
-const aprobados = estudiantes.filter((apro) => apro.nota =>3.0);
+const aprobados = estudiantes.filter((apro) => apro.nota >= 3.0);
 
 console.log(aprobados);
