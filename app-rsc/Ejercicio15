@@ -1,6 +1,6 @@
 const color = "verde";
 
-switch (color);
+switch (color) {
 
  case "rojo":
    console.log("Color de alerta");  break;
