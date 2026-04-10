@@ -1,0 +1,30 @@
+const ventas = [
+{ producto: "Mouse", can􀆟dad: 3, precio: 50000 },
+{ producto: "Teclado", can􀆟dad: 2, precio: 120000 },
+{ producto: "Monitor", can􀆟dad: 1, precio: 800000 },
+{ producto: "USB", can􀆟dad: 5, precio: 30000 }
+];
+
+//Filtrar
+
+const filtrados = ventas.filter(v => v.cantidad >= 2);
+
+//Ordenar mayor a menor 
+
+filtrados.sort((a, b) => b.precio - a.precio);
+
+//Frases
+
+const frases = filtrados.map(v => {
+ return v.producto + " - Total: " + (v.cantidad * v.precio);
+});
+
+console.log(frases);
+
+//Calcular ventas totales
+
+const totalVentas = ventas.reduce((acc, v) => {
+ return acc + (v.cantidad * v.precio);
+}, 0);
+
+console.log("Total ventas:", totalVentas);
